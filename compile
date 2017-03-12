@@ -1,0 +1,4 @@
+javac -cp .:DNS:Ethernet DNS/*.java
+javac -cp .:ARP:Ethernet ARP/*.java
+javac -cp .:Ethernet Ethernet/*.java
+javac -cp .:DNS:ARP:Ethernet:jnetpcap.jar *.java

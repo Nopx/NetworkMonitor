@@ -1,0 +1,561 @@
+
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+Source: 	00:01:00:01:00:06:E4
+Destination:	8D:8C:0A:31:32:00:00
+Type: 2054(ARP)
+CRC: 0
+2: 	Hardware type: 1 (Ethernet)
+	Protocol type: 2048 (IPV4)
+	Hardware size: 6
+	Protocol size: 4
+	OpCode: 1 (Request)
+	Sender MAC Address: E4:8D:8C:0A:31:32
+	Sender IP Address: 172.20.90.1
+	Target MAC Address: 00:00:00:00:00:00
+	Target IP Address: 172.20.91.193
+
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+Source: 	00:01:00:01:00:06:E4
+Destination:	8D:8C:0A:31:32:00:00
+Type: 2054(ARP)
+CRC: 0
+2: 	Hardware type: 1 (Ethernet)
+	Protocol type: 2048 (IPV4)
+	Hardware size: 6
+	Protocol size: 4
+	OpCode: 1 (Request)
+	Sender MAC Address: E4:8D:8C:0A:31:32
+	Sender IP Address: 172.20.90.1
+	Target MAC Address: 00:00:00:00:00:00
+	Target IP Address: 172.20.90.174
+
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+Source: 	00:01:00:01:00:06:E4
+Destination:	8D:8C:0A:31:32:00:00
+Type: 2054(ARP)
+CRC: 0
+2: 	Hardware type: 1 (Ethernet)
+	Protocol type: 2048 (IPV4)
+	Hardware size: 6
+	Protocol size: 4
+	OpCode: 1 (Request)
+	Sender MAC Address: E4:8D:8C:0A:31:32
+	Sender IP Address: 172.20.90.1
+	Target MAC Address: 00:00:00:00:00:00
+	Target IP Address: 172.20.90.114
+
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+Source: 	00:04:00:01:00:06:00
+Destination:	00:00:00:00:00:00:00
+Type: 3(Other)
+CRC: -1407952280
+0: 	Hardware type: 0 (Other)
+	Protocol type: 0 (Other)
+	Hardware size: 0
+	Protocol size: 0
+	OpCode: 0 (Other)
+	Sender MAC Address: 00
+	Sender IP Address: 0
+	Target MAC Address: 00
+	Target IP Address: 0
+
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+Source: 	00:04:00:01:00:06:00
+Destination:	00:00:00:00:00:00:00
+Type: 3(Other)
+CRC: -1407952279
+0: 	Hardware type: 0 (Other)
+	Protocol type: 0 (Other)
+	Hardware size: 0
+	Protocol size: 0
+	OpCode: 26717 (Other)
+	Sender MAC Address: 43
+	Sender IP Address: 242
+	Target MAC Address: B0
+	Target IP Address: 232
+
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+Source: 	00:01:00:01:00:06:E4
+Destination:	8D:8C:0A:31:32:00:00
+Type: 2054(ARP)
+CRC: 0
+2: 	Hardware type: 1 (Ethernet)
+	Protocol type: 2048 (IPV4)
+	Hardware size: 6
+	Protocol size: 4
+	OpCode: 1 (Request)
+	Sender MAC Address: E4:8D:8C:0A:31:32
+	Sender IP Address: 172.20.90.1
+	Target MAC Address: 00:00:00:00:00:00
+	Target IP Address: 172.20.91.193
+
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+Source: 	00:04:00:01:00:06:00
+Destination:	00:00:00:00:00:00:00
+Type: 3(Other)
+CRC: -1407952280
+0: 	Hardware type: 0 (Other)
+	Protocol type: 0 (Other)
+	Hardware size: 0
+	Protocol size: 0
+	OpCode: 0 (Other)
+	Sender MAC Address: 00
+	Sender IP Address: 0
+	Target MAC Address: 00
+	Target IP Address: 0
+
+Source: 	00:04:00:01:00:06:00
+Destination:	00:00:00:00:00:00:00
+Type: 3(Other)
+CRC: -1407952280
+0: 	Hardware type: 0 (Other)
+	Protocol type: 0 (Other)
+	Hardware size: 0
+	Protocol size: 0
+	OpCode: 0 (Other)
+	Sender MAC Address: 00
+	Sender IP Address: 0
+	Target MAC Address: 00
+	Target IP Address: 0
+
+Source: 	00:04:00:01:00:06:00
+Destination:	00:00:00:00:00:00:00
+Type: 3(Other)
+CRC: -1407952280
+0: 	Hardware type: 0 (Other)
+	Protocol type: 0 (Other)
+	Hardware size: 0
+	Protocol size: 0
+	OpCode: 2380 (Other)
+	Sender MAC Address: 14
+	Sender IP Address: 134
+	Target MAC Address: AE
+	Target IP Address: 0
+
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+Source: 	00:01:00:01:00:06:E4
+Destination:	8D:8C:0A:31:32:00:00
+Type: 2054(ARP)
+CRC: 0
+2: 	Hardware type: 1 (Ethernet)
+	Protocol type: 2048 (IPV4)
+	Hardware size: 6
+	Protocol size: 4
+	OpCode: 1 (Request)
+	Sender MAC Address: E4:8D:8C:0A:31:32
+	Sender IP Address: 172.20.90.1
+	Target MAC Address: 00:00:00:00:00:00
+	Target IP Address: 172.20.90.174
+
+Source: 	00:04:00:01:00:06:68
+Destination:	5D:43:F2:B0:E8:00:00
+Type: 2048(IPV4)
+CRC: -536870661
+0: 	Hardware type: 18112 (Other)
+	Protocol type: 40 (Other)
+	Hardware size: 0
+	Protocol size: 0
+	OpCode: 16384 (Other)
+	Sender MAC Address: 01
+	Sender IP Address: 2
+	Target MAC Address: FD
+	Target IP Address: 124
+
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+Source: 	00:01:00:01:00:06:E4
+Destination:	8D:8C:0A:31:32:00:00
+Type: 2054(ARP)
+CRC: 0
+2: 	Hardware type: 1 (Ethernet)
+	Protocol type: 2048 (IPV4)
+	Hardware size: 6
+	Protocol size: 4
+	OpCode: 1 (Request)
+	Sender MAC Address: E4:8D:8C:0A:31:32
+	Sender IP Address: 172.20.90.1
+	Target MAC Address: 00:00:00:00:00:00
+	Target IP Address: 172.20.90.114
+
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+Source: 	00:04:00:01:00:06:00
+Destination:	00:00:00:00:00:00:00
+Type: 3(Other)
+CRC: -1407952280
+0: 	Hardware type: 0 (Other)
+	Protocol type: 0 (Other)
+	Hardware size: 0
+	Protocol size: 0
+	OpCode: 0 (Other)
+	Sender MAC Address: 00
+	Sender IP Address: 0
+	Target MAC Address: 00
+	Target IP Address: 0
+
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+Source: 	00:04:00:01:00:06:00
+Destination:	00:00:00:00:00:00:00
+Type: 3(Other)
+CRC: -1407952279
+0: 	Hardware type: 0 (Other)
+	Protocol type: 0 (Other)
+	Hardware size: 0
+	Protocol size: 0
+	OpCode: 26717 (Other)
+	Sender MAC Address: 43
+	Sender IP Address: 242
+	Target MAC Address: B0
+	Target IP Address: 232
+
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+Source: 	00:04:00:01:00:06:00
+Destination:	00:00:00:00:00:00:00
+Type: 3(Other)
+CRC: -1407952280
+0: 	Hardware type: 0 (Other)
+	Protocol type: 0 (Other)
+	Hardware size: 0
+	Protocol size: 0
+	OpCode: 0 (Other)
+	Sender MAC Address: 00
+	Sender IP Address: 0
+	Target MAC Address: 00
+	Target IP Address: 0
+
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+Source: 	00:04:00:01:00:06:00
+Destination:	00:00:00:00:00:00:00
+Type: 3(Other)
+CRC: -1407952280
+0: 	Hardware type: 0 (Other)
+	Protocol type: 0 (Other)
+	Hardware size: 0
+	Protocol size: 0
+	OpCode: 0 (Other)
+	Sender MAC Address: 00
+	Sender IP Address: 0
+	Target MAC Address: 00
+	Target IP Address: 0
+
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+Source: 	00:04:00:01:00:06:00
+Destination:	00:00:00:00:00:00:00
+Type: 3(Other)
+CRC: -1407952280
+0: 	Hardware type: 0 (Other)
+	Protocol type: 0 (Other)
+	Hardware size: 0
+	Protocol size: 0
+	OpCode: 2380 (Other)
+	Sender MAC Address: 14
+	Sender IP Address: 134
+	Target MAC Address: AE
+	Target IP Address: 0
+
+Source: 	00:01:00:01:00:06:E4
+Destination:	8D:8C:0A:31:32:00:00
+Type: 2054(ARP)
+CRC: 0
+2: 	Hardware type: 1 (Ethernet)
+	Protocol type: 2048 (IPV4)
+	Hardware size: 6
+	Protocol size: 4
+	OpCode: 1 (Request)
+	Sender MAC Address: E4:8D:8C:0A:31:32
+	Sender IP Address: 172.20.90.1
+	Target MAC Address: 00:00:00:00:00:00
+	Target IP Address: 172.20.90.174
+
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+Source: 	00:01:00:01:00:06:DC
+Destination:	9F:DB:14:49:7A:00:00
+Type: 2048(IPV4)
+CRC: 1937613
+0: 	Hardware type: 17664 (Other)
+	Protocol type: 165 (Other)
+	Hardware size: 0
+	Protocol size: 0
+	OpCode: 16384 (Other)
+	Sender MAC Address: 40
+	Sender IP Address: 17
+	Target MAC Address: 32
+	Target IP Address: 228
+
+Source: 	00:01:00:01:00:06:DC
+Destination:	9F:DB:14:49:7A:00:00
+Type: 2048(IPV4)
+CRC: 1937613
+0: 	Hardware type: 17664 (Other)
+	Protocol type: 165 (Other)
+	Hardware size: 0
+	Protocol size: 0
+	OpCode: 16384 (Other)
+	Sender MAC Address: 40
+	Sender IP Address: 17
+	Target MAC Address: 32
+	Target IP Address: 228
+
+Source: 	00:01:00:01:00:06:E4
+Destination:	8D:8C:0A:31:32:00:00
+Type: 2054(ARP)
+CRC: 0
+2: 	Hardware type: 1 (Ethernet)
+	Protocol type: 2048 (IPV4)
+	Hardware size: 6
+	Protocol size: 4
+	OpCode: 1 (Request)
+	Sender MAC Address: E4:8D:8C:0A:31:32
+	Sender IP Address: 172.20.90.1
+	Target MAC Address: 00:00:00:00:00:00
+	Target IP Address: 172.20.90.114
+
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+Source: 	00:01:00:01:00:06:80
+Destination:	86:F2:98:1E:B2:00:00
+Type: 2054(ARP)
+CRC: 0
+2: 	Hardware type: 1 (Ethernet)
+	Protocol type: 2048 (IPV4)
+	Hardware size: 6
+	Protocol size: 4
+	OpCode: 1 (Request)
+	Sender MAC Address: 80:86:F2:98:1E:B2
+	Sender IP Address: 172.20.90.95
+	Target MAC Address: 00:00:00:00:00:00
+	Target IP Address: 172.20.90.1
+
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+Source: 	00:01:00:01:00:06:E4
+Destination:	8D:8C:0A:31:32:00:00
+Type: 2054(ARP)
+CRC: 0
+2: 	Hardware type: 1 (Ethernet)
+	Protocol type: 2048 (IPV4)
+	Hardware size: 6
+	Protocol size: 4
+	OpCode: 1 (Request)
+	Sender MAC Address: E4:8D:8C:0A:31:32
+	Sender IP Address: 172.20.90.1
+	Target MAC Address: 00:00:00:00:00:00
+	Target IP Address: 172.20.90.114
+
+Source: 	00:01:00:01:00:06:E4
+Destination:	8D:8C:0A:31:32:00:00
+Type: 2054(ARP)
+CRC: 0
+2: 	Hardware type: 1 (Ethernet)
+	Protocol type: 2048 (IPV4)
+	Hardware size: 6
+	Protocol size: 4
+	OpCode: 1 (Request)
+	Sender MAC Address: E4:8D:8C:0A:31:32
+	Sender IP Address: 172.20.90.1
+	Target MAC Address: 00:00:00:00:00:00
+	Target IP Address: 172.20.91.193
+
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+Source: 	00:01:00:01:00:06:E4
+Destination:	8D:8C:0A:31:32:00:00
+Type: 2054(ARP)
+CRC: 0
+2: 	Hardware type: 1 (Ethernet)
+	Protocol type: 2048 (IPV4)
+	Hardware size: 6
+	Protocol size: 4
+	OpCode: 1 (Request)
+	Sender MAC Address: E4:8D:8C:0A:31:32
+	Sender IP Address: 172.20.90.1
+	Target MAC Address: 00:00:00:00:00:00
+	Target IP Address: 172.20.90.174
+
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+Source: 	00:01:00:01:00:06:E4
+Destination:	8D:8C:0A:31:32:00:00
+Type: 2054(ARP)
+CRC: 0
+2: 	Hardware type: 1 (Ethernet)
+	Protocol type: 2048 (IPV4)
+	Hardware size: 6
+	Protocol size: 4
+	OpCode: 1 (Request)
+	Sender MAC Address: E4:8D:8C:0A:31:32
+	Sender IP Address: 172.20.90.1
+	Target MAC Address: 00:00:00:00:00:00
+	Target IP Address: 172.20.90.114
+
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+Source: 	00:01:00:01:00:06:E4
+Destination:	8D:8C:0A:31:32:00:00
+Type: 2054(ARP)
+CRC: 0
+2: 	Hardware type: 1 (Ethernet)
+	Protocol type: 2048 (IPV4)
+	Hardware size: 6
+	Protocol size: 4
+	OpCode: 1 (Request)
+	Sender MAC Address: E4:8D:8C:0A:31:32
+	Sender IP Address: 172.20.90.1
+	Target MAC Address: 00:00:00:00:00:00
+	Target IP Address: 172.20.91.193
+
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+Source: 	00:04:00:01:00:06:00
+Destination:	00:00:00:00:00:00:00
+Type: 3(Other)
+CRC: -1407952280
+0: 	Hardware type: 0 (Other)
+	Protocol type: 0 (Other)
+	Hardware size: 0
+	Protocol size: 0
+	OpCode: 0 (Other)
+	Sender MAC Address: 00
+	Sender IP Address: 0
+	Target MAC Address: 00
+	Target IP Address: 0
+
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+0: Not ARP or faulty packet.
+1: Malformed data. Either the packet is not ARP or it is corrupted.
+Source: 	00:01:00:01:00:06:E4
+Destination:	8D:8C:0A:31:32:00:00
+Type: 2054(ARP)
+CRC: 0
+2: 	Hardware type: 1 (Ethernet)
+	Protocol type: 2048 (IPV4)
+	Hardware size: 6
+	Protocol size: 4
+	OpCode: 1 (Request)
+	Sender MAC Address: E4:8D:8C:0A:31:32
+	Sender IP Address: 172.20.90.1
+	Target MAC Address: 00:00:00:00:00:00
+	Target IP Address: 172.20.90.174
+
+Source: 	00:04:00:01:00:06:00
+Destination:	00:00:00:00:00:00:00
+Type: 3(Other)
+CRC: -1407952279
+0: 	Hardware type: 0 (Other)
+	Protocol type: 0 (Other)
+	Hardware size: 0
+	Protocol size: 0
+	OpCode: 26717 (Other)
+	Sender MAC Address: 43
+	Sender IP Address: 242
+	Target MAC Address: B0
+	Target IP Address: 232
+
