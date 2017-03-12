@@ -1,3 +1,4 @@
+Project 1:
 1:
 See program.
 
@@ -7,3 +8,31 @@ Possibility 2: "ip and tcp"
 
 3:
 See program.
+
+
+Project 2:
+1:
+ARP Request:
+	-To broadcast address - NORMAL
+	-To unicast/multicast address - NOTICE
+ARP Reply:
+	-To broadcast/multicast address - ERROR
+	-To unicast address - NORMAL
+ARP Gratuitous:
+	-To broadcast address - NORMAL
+	-To unicast/multicast address - ERROR
+ARP Reply/Gratuitous:
+	-Binding to IP addresses having 255 in the last two integers(Broadcast) - ERROR
+	-Binding to MAC broadcast address - ERROR
+	(-Binding to IP addresses 224.0.0.0-239.255.255.255(Multicast) - ERROR)
+	(-Binding to MAC addresses with 33-33-xx-xx-xx-xx(Multicast) - ERROR)
+	(-Binding to MAC addresses with 01-00-5E-xx-xx-xx(Multicast) - ERROR)	
+	-Source MAC Address differs from binded to MAC address - NOTICE
+
+2:
+See Project02Structure.png
+
+3:
+See Program. Testable with testCap.pcap
+
+4:

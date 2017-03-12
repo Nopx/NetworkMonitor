@@ -1,15 +1,20 @@
-Installation:
-	This program works with JNetPcap. In order to use it you have to download the library from here: http://jnetpcap.com/download
-	Since JnetPcap uses JNI there is sadly no way around this manual installation.
 Compilation:
-	The code is precompiled in the /bin folder.
-	To compile manually type: "javac -cp .:DNSPacket:jnetpcap.jar Sniffer.java"
+	To compile execute the "compile" file
+	The compiled files will end up in the bin directory
 Execution:
-	To execute you need to know the location of your jnetpcap library.
-	If executing from the bin directory, type: "sudo java -Djava.library.path=PATH_TO_JNETPCAP_LIBRARY -cp ../jnetpcap.jar:.:DNSPacket Sniffer"
-	To execute then type: "sudo java -Djava.library.path=PATH_TO_JNETPCAP_LIBRARY -cp jnetpcap.jar:.:DNSPacket Sniffer"
+	To execute use the "execute" file
+	Arguments can be appended to the "execute" file (e.g. "./execute arg0 arg1 arg2 arg3")
 Arguments:
-	1.Amount of Packets to sniff");
-	2.Source File (optional)");
-	3.Destination File (optional)");
+	1.Device to capture from
+	2.Amount of Packets to sniff");
+	3.Source File (optional)");
+	4.Destination File (optional)");
 	If no Destination File is given, the packets will be interpreted and printed to the output.");
+Code execution:
+	-The point of entry is the Sniffer class
+	-The class names should have self explanatory names and the code is commented
+Special files:
+	testCap.pcap - has a few ARP packets saved in order to test the functionalities required by Project02, question 2/3
+	QuestionAnswers.txt - answers to questions from the PDFs
+	config.cfg - contains a configuration for which addresses are broadcast / blacklisted
+	ErrorNotice.log - all ERRORs and NOTICEs thrown by ARP packets get logged here
