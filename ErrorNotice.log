@@ -4266,3 +4266,25 @@ NOTICE: 1489321014670
 	Target MAC Address: 08:5E:14:91:AE:20
 	Target IP Address: 172.20.90.104
 
+NOTICE: 1489322495638 
+	Hardware type: 1 (Ethernet)
+	Protocol type: 2048 (IPV4)
+	Hardware size: 6
+	Protocol size: 4
+	OpCode: 1 (Request)
+	Sender MAC Address: E4:8D:8C:0A:31:32
+	Sender IP Address: 172.20.90.1
+	Target MAC Address: 00:00:00:00:00:00
+	Target IP Address: 172.20.90.104
+
+ERROR: 1489322505657 
+	Hardware type: 1 (Ethernet)
+	Protocol type: 2048 (IPV4)
+	Hardware size: 6
+	Protocol size: 4
+	OpCode: 2 (Reply)
+	Sender MAC Address: D4:0B:1A:EC:0A:2B
+	Sender IP Address: 172.20.90.52
+	Target MAC Address: FF:FF:FF:FF:FF:FF
+	Target IP Address: 172.20.90.1
+

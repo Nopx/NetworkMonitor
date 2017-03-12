@@ -1,2 +1,0 @@
-javac -cp .:DNSPacket PacketParser.java 
-javac -cp .:DNSPacket:jnetpcap.jar Sniffer.java
