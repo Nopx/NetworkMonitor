@@ -11,7 +11,7 @@ Both of these things are hard to judge when in a live capture.
 As another measure, a Disassociation/Deauthentication can be only allowed every X minutes, to prevent wifi jamming.
 
 2:
-
+The ARP replay attack detection works on basis of a general replay attack detection. Every packet is compared to a set of previously monitored packets. The rate at which a single packet (in which every bit of data is the same) can be received, without issuing an error is 500 packets per minute.
 
 3:
 WebWereld wrote in 2011, that in the Netherlands hacking Wifi and piggybacking were made legal.[1]
