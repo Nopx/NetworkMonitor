@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.zip.CRC32;
 
 public class Wifi802dot11Parser extends PacketParser{
 
@@ -196,6 +197,7 @@ public class Wifi802dot11Parser extends PacketParser{
       return null;
     }
   }
+
 /*
   public DotAddition parseWifi802dot11wManagement(byte[] data, int index, int type){
     switch(type){

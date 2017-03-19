@@ -95,9 +95,6 @@ public class Sniffer{
               }
               //Adding data of packet to list for replay protection
               PacketMonitor.addHash(data);
-
-              if(data!=null)
-                return;
               //Parsing header as 802.11
               Wifi802dot11Parser w802Parser = new Wifi802dot11Parser();
               Wifi802dot11Packet w802Packet = w802Parser.parseWifi802dot11(data,36);//TODO fix this skipping radioheader

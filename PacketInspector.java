@@ -40,7 +40,6 @@ public class PacketInspector{
     for(int i=0;i<hashList.size();i++){
       if(hash.equals(hashList.get(i)))equalCounter++;
     }
-    System.out.println(""+equalCounter+" TIME: "+hash);
     return equalCounter>=REPLAY_LIMIT?ERROR:PERMITTED;
   }
 
