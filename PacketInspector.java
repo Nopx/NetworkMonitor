@@ -10,6 +10,7 @@ public class PacketInspector{
   public static final int PERMITTED=0;
   public static final int ERROR=1;
   public static final int NOTICE=2;
+  protected static final int REPLAY_LIMIT=250;
 
   /**
   * Handles errors
@@ -30,6 +31,17 @@ public class PacketInspector{
       handleError(1,"Config file could not be read!",ioe);
     }
     return ret;
+  }
+
+  public int replayInspect(byte[] data){
+    String hash = PacketMonitor.hashBytes(data);
+    ArrayList<String> hashList = PacketMonitor.getHashs();
+    int equalCounter=0;
+    for(int i=0;i<hashList.size();i++){
+      if(hash.equals(hashList.get(i)))equalCounter++;
+    }
+    System.out.println(""+equalCounter+" TIME: "+hash);
+    return equalCounter>=REPLAY_LIMIT?ERROR:PERMITTED;
   }
 
 }

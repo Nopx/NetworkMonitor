@@ -20,7 +20,6 @@ public class PacketParser{
     ErrorHandler.handleError(code,msg,e);
   }
 
-
   /**
   * This method parses name labels recursively. A name label can either be:
   * - A String of labels terminated with a zero octet
@@ -84,6 +83,27 @@ public class PacketParser{
   }
 
   /**
+  * Returns byteToBits in reverse
+  */
+  protected int[] byteToBitsReverse(byte inByte){
+    int[] retBits = new int[8];
+    int[] copy = byteToBits(inByte);
+    for(int i=0;i<8;i++)retBits[i]=copy[7-i];
+    return retBits;
+  }
+
+  /**
+  * Returns an int from an int array which represents bits with 1s and 0s
+  */
+  protected int bitsToInt(int[] bits){
+    int ret =0;
+    for(int i=0;i<bits.length;i++){
+      ret|=bits[i]<<i;
+    }
+    return ret;
+  }
+
+  /**
   * Converts a byte array into an Integer
   * If the array's length is >4 it will be shortened accordingly
   * If the array's length is <4 it will be padded with 0 bytes
@@ -121,6 +141,15 @@ public class PacketParser{
 
   protected String byteToHex(byte data){
     return String.format("%02X",data);
+  }
+
+  protected String bytesToHexAddress(byte[] data){
+    int index = 0;
+    String ret = ""+byteToHex(data[index++]);
+    for(int i=0;i<data.length-1;i++){
+      ret+=":"+byteToHex(data[index++]);
+    }
+    return ret;
   }
 
   public static String ethertypeToString(int type){

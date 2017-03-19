@@ -84,9 +84,32 @@ public class Sniffer{
             final Tcp tcp = new Tcp();
             final Arp arp = new Arp();
 
-            public void nextPacket(JPacket packet, StringBuilder errbuf) {
-              //Parsing header of packet as Ethernet header
+            synchronized public void nextPacket(JPacket packet, StringBuilder errbuf) {
               byte[] data = packet.getByteArray(0,packet.size());
+
+              //Inspecting against a replay attack
+              int replayCode = new PacketInspector().replayInspect(data);
+              if(replayCode == PacketInspector.ERROR){
+                Warner.warn("REPLAY ATTACK DETECTED",replayCode);
+                return;
+              }
+              //Adding data of packet to list for replay protection
+              PacketMonitor.addHash(data);
+
+              if(data!=null)
+                return;
+              //Parsing header as 802.11
+              Wifi802dot11Parser w802Parser = new Wifi802dot11Parser();
+              Wifi802dot11Packet w802Packet = w802Parser.parseWifi802dot11(data,36);//TODO fix this skipping radioheader
+
+              int errorCode = new Wifi802dot11Inspector().inspectWifi802dot11(w802Packet);
+              if(w802Packet!=null && errorCode!=PacketInspector.PERMITTED)
+                Warner.warn(w802Packet.toString(),errorCode);
+              else if(w802Packet!=null)
+                System.out.println("802.11:\n"+w802Packet.toString());
+
+              /*
+              //Parsing header of packet as Ethernet header
               EthernetParser ethParser = new EthernetParser();
               EthernetPacket eth = ethParser.parseEthernetPacket(data, 0);
               ARPInspector arpInspector = new ARPInspector();
@@ -116,7 +139,7 @@ public class Sniffer{
                   System.out.print(eth.toString());
                   System.out.println(arp.toString());
                 }
-              }
+              }*/
               if (packet.hasHeader(tcp)) {
 
               }
