@@ -1,0 +1,6 @@
+rm 2000000.txt
+>2000000.txt
+sudo python packetSniffer.py &
+sudo python packetInsert.py
+pgrep -f packetSniffer.py | sudo xargs kill
+python iptablesTimer.py

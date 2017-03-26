@@ -10,6 +10,7 @@ public class PacketInspector{
   public static final int PERMITTED=0;
   public static final int ERROR=1;
   public static final int NOTICE=2;
+  public static final int DROP =3;
   protected static final int REPLAY_LIMIT=250;
 
   /**

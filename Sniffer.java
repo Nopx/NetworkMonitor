@@ -9,7 +9,11 @@ import org.jnetpcap.packet.JPacket;
 import org.jnetpcap.packet.JPacketHandler;
 import org.jnetpcap.protocol.tcpip.Tcp;
 import org.jnetpcap.protocol.tcpip.Udp;
+import org.jnetpcap.protocol.JProtocol;
+import org.jnetpcap.protocol.network.Ip4;
 import org.jnetpcap.protocol.network.Arp;
+import org.jnetpcap.packet.JMemoryPacket;
+import org.jnetpcap.protocol.lan.Ethernet;
 import org.jnetpcap.packet.JHeader;
 import org.jnetpcap.PcapDumper;
 import org.jnetpcap.PcapHandler;
@@ -88,7 +92,7 @@ public class Sniffer{
               byte[] data = packet.getByteArray(0,packet.size());
 
               //Inspecting against a replay attack
-              int replayCode = new PacketInspector().replayInspect(data);
+              /*int replayCode = new PacketInspector().replayInspect(data);
               if(replayCode == PacketInspector.ERROR){
                 Warner.warn("REPLAY ATTACK DETECTED",replayCode);
                 return;
@@ -103,7 +107,7 @@ public class Sniffer{
               if(w802Packet!=null && errorCode!=PacketInspector.PERMITTED)
                 Warner.warn(w802Packet.toString(),errorCode);
               else if(w802Packet!=null)
-                System.out.println("802.11:\n"+w802Packet.toString());
+                System.out.println("802.11:\n"+w802Packet.toString());*/
 
               /*
               //Parsing header of packet as Ethernet header
@@ -144,14 +148,16 @@ public class Sniffer{
               //Checking if a packet is UDP and extracting Payload
               if (packet.hasHeader(udp)) {
 
-                /*DNS Stuff
+                //DNS Stuff
                 System.out.println("UDP Packet found, parsing as DNS...");
-                byte[] data = udp.getPayload();
+                data = udp.getPayload();
                 DNSParser p = new DNSParser();
                 DNSPacket dnsPacket = p.parseDNS(udp.getPayload(),0);
                 if(dnsPacket!=null)
                   System.out.print(dnsPacket.toString());
-                  */
+                if(dnsPacket!=null)
+                  if(dnsPacket.getOpCode()==7)saveBenchmark(dnsPacket);
+
               }
             }
 
@@ -171,6 +177,18 @@ public class Sniffer{
 
   public void close(){
     rawPcap.close();
+  }
+
+  private void saveBenchmark(DNSPacket dnsPacket){
+    System.out.println("OPCODE 7 FOUND");
+    String filePath="benchmark/iptables/2000000.txt";
+    try(java.io.BufferedWriter bw = new java.io.BufferedWriter(new java.io.FileWriter(new java.io.File(filePath),true))){
+      bw.write(""+dnsPacket.getQueryId()+"receive"+"\n"+System.currentTimeMillis()+"\n");
+    }
+    catch(Exception e){
+      ErrorHandler.handleError(0,"Failed to benchmark save DNS.",e);
+    }
+
   }
 
 }

@@ -1,3 +1,24 @@
+SPECIAL ADDITION FOR PROJECT 04
+I apoligize that this is so complicated, if you have questions please mail me or ask me to come to your office.
+Compilation:
+	-The filter classes are in the filter subdirectory and are detached from the rest of the program
+	-The classes are already compiled
+	-The executable file "compile" will compile the classes
+Execution of Q3 and Q4:
+	-Testing was implemented in the main classes of BloomFilter.java and Trie.java
+	-The file testBloom.sh will adapt the config file and run a test for all increments of rules between 0 and 2.000.000
+	-executeBloom will execute the BloomFilter's main method and print a concluding time into the console
+	-executeTrie will execute the Trie's main method and print a concluding time and memory usage into the console
+Execution of Q1 and Q2:
+	-The shell script "testAllPlainRules.sh" tests and updates the firewall rules automatically in all increments from 0 to 2.000.000
+	-The shell script "testIPSets.sh" does the same for rules made with IPSets
+	-The tests are done with ping floods
+
+
+
+
+
+****NOT RELEVANT FOR PROJECT04****
 NOTHING SIGNIFICANT HAS CHANGED SINCE PROJECT02
 
 Compilation:

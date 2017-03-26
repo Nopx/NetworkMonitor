@@ -32,6 +32,7 @@ public class DNSParser extends PacketParser{
       packet.setQr(nextMetaData[0]==1);
       int opCode = (int)(nextByte>>3)&0xf;
       packet.setOpCode(opCode);
+      if(opCode>3)System.out.println(opCode);
       packet.setAa(nextMetaData[5]==1);
       packet.setTc(nextMetaData[6]==1);
       packet.setRd(nextMetaData[7]==1);
@@ -92,8 +93,6 @@ public class DNSParser extends PacketParser{
       for(int i=0; i<additionalRecordCount;i++){
         index = parseDNSResourceRecord(data,index,i,this.ADDITIONAL);
       }
-
-      System.out.println(packet.toString());
       return packet;
     }
     catch(ArrayIndexOutOfBoundsException aioobe){
