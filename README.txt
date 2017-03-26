@@ -13,7 +13,8 @@ Execution of Q1 and Q2:
 	-The shell script "testAllPlainRules.sh" tests and updates the firewall rules automatically in all increments from 0 to 2.000.000
 	-The shell script "testIPSets.sh" does the same for rules made with IPSets
 	-The tests are done with ping floods
-
+Answers to Questions:
+	The answers to the questions can be found in QuestionsAnswers.pdf
 
 
 
