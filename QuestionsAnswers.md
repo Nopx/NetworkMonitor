@@ -1,23 +1,45 @@
 # Project 4:
 ## 1.
 ![](Project04-Firewall-2million_rules_graph.png)
+
 The algorithm seems to have linear complexity. Probably iptables just matches the packet against every rule.
 
+
 ## 2.
+
 + Put the most filtered IPs to the top of the ruleset. (For this configuration the results would be the same if the packet is not dropped anyway)
+
 + If there is a certain range of IPs which should be accepted, they can immediately be accepted instead of running them through all rules. (This would optimize the delay of definitely allowed packets to nearly 0 and not change the delay of every other packet
+
 + Change the mask to a smaller value. E.g. instead of writing a rule for every IP in range 4.4.0.0 - 4.4.255.255, you can write it as 4.4.0.0/16. In question 1 the 2 million rules blocked the range of IPs from 4.1.0.0 - 4.200.49.199. With 256 rules the same effect can be achieved, with a mask of 255.255.0.0. With this new set of rules the processing time goes down from an avg of 47.515ms with a derv of 7.368ms to an avg of 0.006ms with a derv of 0.003ms. 
+
 + Implementing rules with ipset in a hash:ip list where every list contains 50.000 rules speeds up the filtering process by a huge margin. The results of the tests with ipset are in the graph below. 
+
 ![](Project04-Firewall-2million_rules_graph_ipset.png)
+
+
 ## 3.
+
 ![](Project04-Bloomfilter-2million_rules_graph.png)
+
+For this part see Figure 3.
 The times do not measurably change, which means that bloomfilters execute in constant time. It is however noteworthy, that there is a decent amount of collisions and false negatives.
+
+
 ## 4.
+
+For this part see Figure 4 and 5. 
 The tests were done on a rule set of 400.000 rules. The rule set had to be kept low due to the low memory available on the PC that was used and a non optimal implementation.
+
 ![](Project04-Q4-Graph-time.png)
+
 The times go down from left to right, however only slightly.
+
 ![](Project04-Q4-Graph-mem.png)
+
 The memory usage is very large and seems to be slightly larger for a trie, since the trie elements take up the majority of memory space.
+
+
 
 # Project 3:
 * 1:
