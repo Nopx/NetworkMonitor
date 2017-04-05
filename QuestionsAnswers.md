@@ -1,4 +1,4 @@
-#Project 5:
+# Project 5:
 ## 1.
 + Web server: A aws free tier ubuntu vm running nothing except apache2.
 + Syn Requests: using hping3 with the -S flag to send SYN packets.
