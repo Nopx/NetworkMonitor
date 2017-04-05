@@ -1,5 +1,9 @@
+DEBUG=false
+if ${DEBUG}; then
 javac -d bin/Wifi802dot11 -cp .:Wifi802dot11:Ethernet Wifi802dot11/*.java
 javac -d bin/DNS -cp .:DNS:Ethernet DNS/*.java
 javac -d bin/ARP -cp .:ARP:Ethernet ARP/*.java
 javac -d bin/Ethernet -cp .:Ethernet Ethernet/*.java
-javac -d bin -cp .:DNS:ARP:Ethernet:Wifi802dot11:lib/jnetpcap-1.3.0/jnetpcap.jar *.java
+fi
+javac -d bin -cp .:p5Modules:DNS:ARP:Ethernet:Wifi802dot11:lib/jnetpcap-1.3.0/jnetpcap.jar *.java
+javac -d bin/p5Modules -cp lib/jnetpcap-1.3.0/jnetpcap.jar:bin:p5Modules/*.java p5Modules/*.java
