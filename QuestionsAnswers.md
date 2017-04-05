@@ -17,7 +17,6 @@
 + The approach in which a code 302 is returned will not work if:
 	+ The bot-net clients all actually open a webbrowser
 	+ The attacking clients are also able to interpret HTTP
-	+ If the adversary changes the attack to the address to which the redirect is leading
 + The approach with javascript requires an actual web browser since interpretation becomes a lot more complex. However if a normal user does not have javascript enabled, he/she can also not connect
 
 ## 4.
